@@ -1,0 +1,107 @@
+@font-face{
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.otf');
+}
+
+#menu{
+    position: fixed;
+    height: 125px;
+    background-color: #fff;
+    width: 100%;
+   
+}
+
+
+.container-fluid img{
+
+    height: 95px;
+    
+}
+
+#nav img{
+    height: 90px;
+}
+
+#servicos{
+    font-size: 1.3rem;
+    
+}
+
+#conteudo{
+    padding: 8em 0 0 0;
+}
+
+#section_one{
+
+    background-image: url(../IMG/banner-sem-logo.png);
+    height: 800px;
+}
+
+#section_two{
+    height: 685px;
+    background-color: red;
+}
+
+#pdv{
+ 
+    
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+   
+   
+
+}
+
+#section-pdv{
+    /*background-color: green;*/
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+#img-pdv img{
+    height: 400px;
+}
+
+#section-three{
+    height: 615px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#frases-servicos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#frases-servicos-box-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#frases-servicos-box-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-services{
+
+    border: #000 5px solid;
+    height: 100px;
+    background-color: #fff;
+
+}
+
